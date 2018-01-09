@@ -168,7 +168,7 @@ module sha256 (clk_i, rst_i, text_i, text_o, cmd_i, cmd_w_i, cmd_o);
         assign cmd_o = cmd;
         always @ (posedge clk_i)
         begin
-                if (rst_i)
+                if (rst_i)    //sync reset, active high
                         cmd <= 'b0;
                 else
                 if (cmd_w_i)
