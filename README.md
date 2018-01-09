@@ -1,2 +1,2 @@
 this is a sinc3 decimation filter used for delta-segma adc
-anyone can use this file under unnoticed.
+anyone can use this file under none commercial purpose.
